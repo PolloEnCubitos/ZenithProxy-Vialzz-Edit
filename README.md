@@ -8,7 +8,7 @@
 
 Minecraft proxy & Bot for Servers/Networks that have a queue System. If you are tired of waiting and don't want to have your game open this is for you.
 
-This proyect is based On ZenithProxy with a few personal touches, don't forget to check the Creator out the Official Zenith Repo!
+This proyect is based On ZenithProxy with a few personal touches, don't forget to check out the Creator of the Official Zenith Repo!
 
 This project is also used for the [2b2t.vc API](https://api.2b2t.vc) and [Discord Bot](https://bot.2b2t.vc).
 

@@ -1,10 +1,4 @@
-# ZenithProxy
-
-<p align="center">
-  <a href="https://discord.gg/nJZrSaRKtb">
-  <img alt="Discord" src="https://dcbadge.vercel.app/api/server/nJZrSaRKtb">
-  </a>
-</p>
+# ZenithProxy Vialzz Edit
 
 <p align="center">
   <img src="https://img.shields.io/badge/MC-1.21-brightgreen.svg" alt="Minecraft"/>
@@ -12,11 +6,9 @@
 </p>
 
 
-Minecraft proxy and bot designed for 2b2t.org but also works on any server. 
+Minecraft proxy & Bot for Servers/Networks that have a queue System. If you are tired of waiting and don't want to have your game open this is for you.
 
-ZenithProxy is a MC bot with an integrated MC server that players can log into and control.
-
-Have your accounts always online in-game and securely shared with your friends.
+This proyect is based On ZenithProxy with a few personal touches, don't forget to check the Creator out the Official Zenith Repo!
 
 This project is also used for the [2b2t.vc API](https://api.2b2t.vc) and [Discord Bot](https://bot.2b2t.vc).
 
@@ -201,9 +193,3 @@ Most useful gradle tasks:
 * `run` - Builds and runs a local dev instance
 * `jarBuild` - Builds an executable jar to `build/libs/ZenithProxy.jar`
 * `build` - Compiles and runs tests without building a jar
-
-## Special Thanks
-
-* [Pork2b2tBot Contributors](https://github.com/PorkStudios/Pork2b2tBot/graphs/contributors)
-* [MCProtocolLib Contributors](https://github.com/GeyserMC/MCProtocolLib/graphs/contributors)
-* [Baritone Contributors](https://github.com/cabaletta/Baritone/graphs/contributors)

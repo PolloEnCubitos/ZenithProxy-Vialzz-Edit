@@ -12,44 +12,8 @@ This proyect is based On ZenithProxy with a few personal touches, don't forget t
 
 This project is also used for the [2b2t.vc API](https://api.2b2t.vc) and [Discord Bot](https://bot.2b2t.vc).
 
-<details>
-    <summary>What is a proxy?</summary>
 
-    This proxy itself consists of two components:
-    1. A Minecraft Server ("Proxy Server")
-    2. A Minecraft Client ("Proxy Client")
-
-    Players use a Minecraft client to connect to the Proxy Server as you would a normal MC server.
-    The Proxy Client connects to a destination MC server (i.e. 2b2t.org).
-    The Player's packets to the Proxy Server get forwarded to the Proxy Client which 
-    forwards them to the destination MC server.
-    
-    Player MC Client -> Proxy Server -> Proxy Client -> MC Server
-    
-    When no Player Client is connected the Proxy Client will act 
-    as a bot: moving around, chatting, etc.
-</details>
-
-<details>
-    <summary>How does it work?</summary>
-
-    ZenithProxy does not use, depend on, or interact with the Minecraft client or server code.
-    This means much greater opportunities for optimizing memory usage and performance.
-    
-    But this also means existing MC mods or plugins cannot be used and must be
-    reimplemented specifically for ZenithProxy.
-
-    ZenithProxy acts primarily at the network packet layer. It can read/modify/cancel/send
-    arbitrary packets in either direction at any time.
-
-    Using packet interception, the client's session and world state is cached and 
-    sent to players when they connect.
-
-    The cached world state is also used to simulate player movements, 
-    inventory actions, discord chat relay, and all features.
-</details>
-
-# Features
+# Original Features ✅
 
 * High performance and efficiency on minimal hardware, <300MB RAM per java instance or <200MB on linux.
 * Integrated ViaVersion
@@ -57,7 +21,7 @@ This project is also used for the [2b2t.vc API](https://api.2b2t.vc) and [Discor
 * Secure Whitelist system - share MC accounts without sharing passwords
 * Discord Bot for management and notifications
     * Chat relay/bridge
-    * Customizable pings and alerts. e.g. Player in visual range alerts
+    * Customizable pings and alerts.
 * Spectator mode
   * Multiple players can connect and spectate the player
 * Coordinate obfuscation - let players you don't trust visit your base safely
